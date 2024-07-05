@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Q3 {
     public static void main(String[] args) {
-        Barbearia barbearia = new Barbearia(3);
+        Barbearia barbearia = new Barbearia(3); // barbearia com 3 cadeiras
 
         // Cria e inicia 100 clientes que tentam entrar na barbearia
         for (int i = 0; i < 100; i++) {
